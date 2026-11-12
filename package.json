@@ -1,0 +1,14 @@
+{
+    "name": "drag-manage",
+    "version": "1.0.0",
+    "private": true,
+    "type": "module",
+    "description": "服薬記録・在庫・通知のセルフホスト型Webアプリ",
+    "scripts": {
+        "start": "node --disable-warning=ExperimentalWarning --env-file-if-exists=.env server.ts",
+        "test": "node --disable-warning=ExperimentalWarning --test test/*.test.ts"
+    },
+    "engines": {
+        "node": ">=22.18"
+    }
+}
